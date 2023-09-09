@@ -1,14 +1,15 @@
-* {
-    margin: 0;
-    padding: 0;
-  }
-  
-  body {
-    font-family: "Outfit", sans-serif;
-  }
+:root {
+  --white: #FFFFFF;
+  --grey1: #E7E7E7;
+  --grey2: #CECECE;
+  --gold: #FFF8E1;
+  --whiteblue: #F1F2F4;
+  --skyblue: #1EBAF3;
+  --darkblue1: #0A1825;
+  --gradient1: linear-gradient(70deg, #0083B4, #8FC2D3);
+  --gradient2: linear-gradient(70deg, #001947, #03416E);
+}
 
-
- @import url(<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"); poppins ligth
- @import url(<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"); poppins regular
- @import url(<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap"); semi bold
- @import url(<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700&display=swap"); bold
+body {
+  font-family: 'Poppins', sans-serif;
+}
