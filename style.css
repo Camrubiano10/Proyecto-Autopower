@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: "Outfit", sans-serif;
+  }
+
+
+ @import url(<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"); poppins ligth
+ @import url(<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"); poppins regular
+ @import url(<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap"); semi bold
+ @import url(<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700&display=swap"); bold
