@@ -20,63 +20,64 @@
 <body>
 
   <main>
-    <nav class="fixed top-0 left-0 right-0 flex justify-between items-center px-8 py-2 bg-gradient-to-r from-stone-950 via-blue-950  to-blue-900  h-12  ">
+    <nav class="fixed top-0 left-0 right-0 flex justify-between items-center px-8 md:px-40 py-2 md:py-10 bg-gradient-to-r from-stone-950 via-blue-950  to-blue-900  h-12  ">
       
-      <div class="w-28 ">
+      <div class="w-28 md:w-48 ">
         <img class="  " src="./assets/logo/Logo-blanco.svg" alt="" />
         
       </div>
       
-      <div class="">
-        <img class="Visibility md:hidden lg:hidden "
-         src="./assets/img/icon-hamburger.svg" alt="" />
+      <div class="text-white ">
+        
 
-        <ul class="flex hidden md:Visibility lg:Visibility   ">
+        <ul class="md:flex md:flex-row hidden md:visibility text-white gap-6 font-semibold hover:cursor-pointer "> <!--corregir Hidden para md-->
           <li>BENEFICIOS</li>
           <li>COTIZA</li>
           <li>SOBRE NOSOTROS</li>
           <li>CONTACTO</li>
         </ul>
+
+        <img class="visibility md:hidden " src="./assets/img/icon-hamburger.svg" alt="" />
       </div>
 
 
     </nav>
 
-    <section class="mt-16 border border-white w-[90%] m-auto h-[88vh] rounded-2xl  bg-blue-900 "> <!--bg-[url('./assets/logo/bg-mobile.png')] bg-cover-->
+    <section class="mt-16 md:mt-36 border border-white w-[90%] md:w-[70%] m-auto  rounded-2xl  bg-gradient-to-r from-green-400 to-blue-500 md:flex   "> <!--bg-[url('./assets/logo/bg-mobile.png')] bg-cover-->
      
-       <div class="flex flex-col w-full mt-4  "> <!--Container-->
+       <div class="flex flex-col w-full md:w-[60%]  my-4 md:my-4  "> <!--Container-->
 
-        <h2 class="mb-4 py-0.5 w-[80%] text-center text-[20px] tracking-wider font-bold bg-gray-400	rounded-r-md text-[#FFF8E1] italic   ">Del 24 al 31 de Octubre</h2>
+        <h2 class="mb-4 py-0.5 md:py-1.5 w-[80%] md:w-[95%] text-center text-[20px] md:text-[30px] tracking-wider font-bold  bg-gradient-to-r from-blue-600	rounded-r-md text-[#FFF8E1] italic   ">Del 24 al 31 de Octubre</h2>
 
-        <img class="w-[75%] mx-auto mb-4  " src="./assets/img/cars/auto.png" alt="">
+        <img class="w-[75%] md:w-[90%] mx-auto md:pl-8 my-1  " src="./assets/img/cars/auto.png" alt="">
 
-        <h2 class="w-[90%] mx-auto text-center text-[24px] font-bold text-white bg-gradient-to-r from-transparent from-5%  via-yellow-300 via-50%  to-transparent to-95% italic  ">Plan Gold</h2>
+        <h2 class="w-[90%] mx-auto text-center text-[24px] md:text-[30px] font-bold text-blue-900 bg-gradient-to-r from-transparent from-5%  via-yellow-300 via-50%  to-transparent to-95% italic  ">Plan Gold</h2>
       </div>
 
       <!-- bg-yellow-300  -->
       <!-- bg-gradient-to-b from-yellow-300  -->
 
-      <div class="mt-4 text-center  ">
-        <h3 class="text-[#FFF8E1] font-semibold text-sm "   >¡Promociones a tu alcance!</h3>
-        <h2 class="mt-1 font-bold text-white tracking-wider ">Seguro vehicular al 100%</h2>
+      <div class="mt-4 text-center md:text-left md:my-4 lg:my-8 ">
+        <h3 class="text-[#FFF8E1] font-semibold text-sm md:text-base lg:text-lg md:pl-10    "   >¡Promociones a tu alcance!</h3>
+        <h2 class="mt-1 lg:mt-4 font-bold text-white tracking-wider md:pl-10 md:text-lg lg:text-2xl">Seguro vehicular al 100%</h2>
         
-        <div class="w-[60%] mx-auto flex flex-col my-1 text-white mt-3  ">
-        <p class="flex items-start text-xs">Desde</p>
-        <h2 class="text-4xl font-bold text-[#FFF8E1]  ">US$ 22.99</h2>
-        <h2 class="flex items-start text-xs ">Por mes</h2>
+        <div class="w-[90%] md:pl-10 flex flex-col  my-1 md:mt-6 md:mb-6 text-white mt-3  ">
+        <p class=" flex items-start text-xs pl-14 md:pl-0 md:text-base lg:text-xl">Desde</p>
+        <h2 class="text-4xl md:text-5xl lg:md:text-7xl font-bold text-[#FFF8E1] lg:my-4 ">US$ 22.99</h2>
+        <h2 class="flex items-start text-xs pl-14 md:pl-0 md:text-base lg:text-xl">Por mes</h2>
         </div>
 
-        <div class="flex gap-4 pl-4 pr-5 mt-4 text-white items-center text-sm text-left ">
+        <div class="flex gap-4 pl-4 pr-5 mt-4 lg:mt-8 text-white items-center text-sm md:text-base lg:text-xl text-left ">
         <img class="w-3 h-3" src="./assets/img/star.png" alt="">
         <p>Protege ahora tu vehiculo electrico con los mejores.</p>
         </div>
         
-        <div class="flex gap-4 pl-4 pr-5 mt-2 text-white items-center text-sm text-left ">
+        <div class="flex gap-4 pl-4 pr-5 mt-2 lg:mt-6 md:mt-5 text-white items-center text-sm md:text-base lg:text-xl text-left ">
         <img class="w-3 h-3" src="./assets/img/star.png" alt="">
         <p>Contamos con todos los complementos para tu auto.</p>
         </div>
 
-        <button class="border border-white border-2 py-0.5 px-24 mt-5 text-[14px] text-white tracking-widest rounded-md  ">Cotizar</button>
+        <button class="md:ml-16 lg:ml-20 border border-white border-2 py-0.5 md:py-1.5 lg:py-3 px-24 lg:px-36 mt-5 md:mt-6 lg:mt-8 text-[14px] text-white tracking-widest rounded-md mb-6 lg:mb-2 ">Cotizar</button>
       </div>
 
       <div> <!--Carrusel buttons-->
@@ -84,13 +85,14 @@
       </div>
     </section>
 
-    <section class="mt-12 w-[90%] m-auto  ">
+    <section class="mt-6 md:mt-24 w-[70%] m-auto ">
 
-      <h2 class="text-lg text-center my-3 font-bold tracking-wider   ">Conoce nuestros planes de seguro vehicular</h2>
-
+      <h2 class="text-lg lg:text-4xl text-center my-3 font-bold tracking-wider    ">Conoce nuestros planes de seguro vehicular</h2>
+ 
+        <div class="md:flex mt-8 md:mt-16 gap-12 "> <!--Grid-->
         <!-- Container 1  -->
 
-        <div class="border border-[#0083B4] rounded-2xl border-2 flex flex-col   ">
+        <div class="border border-[#0083B4] rounded-2xl border-2 flex flex-col  md:w-[33%] md:h-[75%] md:mt-6">
           <h2 class="mt-4 pb-4 text-center text-2xl font-bold tracking-widest border-b-2  w-[90%] mx-auto color-#1F3142 ">Plan basic</h2>
 
             <h2 class="text-3xl font-bold my-2 text-center color-#1F3142 ">US$ 19.99</h2>
@@ -100,30 +102,30 @@
 
             <ul >
               <li class="flex items-center gap-4 pl-4 pr-5 text-sm text-left mt-4  bg-[#d4f4fd] py-2   ">
-                <div class="flex items-center justify-center"s>
+                <!-- <div class="flex items-center justify-center"s>
                   <img class="w-4" src="./assets/img/star.png" alt="">
-                </div>
+                </div> -->
                 <div >
-                <p class="font-semibold tracking-wide ">Asistencia las 24 horas:</p>
-                <p class="text-xs ">Tendras asistencia ambulatoria, auxilio mecanico, entre otros.</p>
+                <p class="font-semibold tracking-wide ">⭐ Asistencia las 24 horas:</p>
+                <p class="text-xs ml-6 ">Tendras asistencia ambulatoria, auxilio mecanico, entre otros.</p>
                 </div>
 
               <li class="flex items-center gap-4 pl-4 pr-5 text-sm text-left py-2 ">
-                  <div class="flex items-center justify-center">
+                  <!-- <div class="flex items-center justify-center">
                     <img class="w-4" src="./assets/img/star.png" alt="">
-                  </div>
+                  </div> -->
                   <div>
-                  <p class="font-semibold tracking-wide ">Revision tecnica:</p>
-                  <p class="text-xs ">Podras hacSCer una revision de tu vehiculo para tu seguridad y la de tu familia.</p>
+                  <p class="font-semibold tracking-wide ">⭐ Revision tecnica:</p>
+                  <p class="text-xs ml-6 ">Podras hacSCer una revision de tu vehiculo para tu seguridad y la de tu familia.</p>
                   </div>
 
-              <li class="flex items-center gap-4 pl-4 pr-5 text-sm text-left mb-4  bg-[#d4f4fd]  py-2 ">
-                  <div class="flex items-center justify-center">
+              <li class="flex items-center gap-4 pl-4 pr-5 text-sm text-left mb-4 md:mb-6  bg-[#d4f4fd]  py-2 ">
+                  <!-- <div class="flex items-center justify-center">
                     <img class="w-4" src="./assets/img/star.png" alt="">
-                  </div>
+                  </div> -->
                   <div>
-                  <p class="font-semibold  tracking-wide  ">Mantenimiento mensual:</p>
-                  <p class="text-xs ">¡Auto seguro, familia segura!. Manten tu vehiculo en optimas condiciones.</p>
+                  <p class="font-semibold  tracking-wide  ">⭐ Mantenimiento mensual:</p>
+                  <p class="text-xs ml-6 ">¡Auto seguro, familia segura!. Manten tu vehiculo en optimas condiciones.</p>
                   </div>
             </ul>
              
@@ -131,10 +133,10 @@
 
         <!-- Container 2  -->
 
-        <div class="mt-12 bg-[#0083B4] rounded-2xl  ">
+        <div class="mt-12 md:mt-0 bg-[#0083B4] rounded-2xl md:w-[33%] md:h-[33%]">
         <h2 class="text-center italic text-white rounded-t-2xl tracking-wide font-semibold  ">Plan recomendado</h2>
 
-        <div class="border border-[#0083B4] rounded-2xl border-2 flex flex-col bg-white ">
+        <div class="border border-[#0083B4] rounded-2xl border-2 flex flex-col bg-white md:h-[10%]">
           <h2 class="mt-4 pb-4 text-center text-2xl font-bold tracking-widest border-b-2  w-[90%] mx-auto color-#1F3142 ">Plan Gold</h2>
 
             <p class="text-center italic text-sm text-slate-700 ">ANTES US$ 29.99</p>
@@ -146,57 +148,57 @@
 
             <ul >
               <li class="flex items-center gap-4 pl-4 pr-5 text-sm text-left mt-4  bg-[#d4f4fd] h-20   ">
-                <div>
+                <!-- <div>
                   <img class="w-3 h-3" src="./assets/img/star.png" alt="">
-                </div>
+                </div> -->
                 <div>
-                <p class="font-semibold tracking-wide ">Seguro contra robos del 35%:</p>
-                <p class="text-xs ">Si tu miedo es el robo de tu vehiculo, este plan te cubrira ante esta situacion para tu tranquilidad.</p>
+                <p class="font-semibold tracking-wide ">⭐ Seguro contra robos del 35%:</p>
+                <p class="text-xs ml-6 ">Si tu miedo es el robo de tu vehiculo, este plan te cubrira ante esta situacion para tu tranquilidad.</p>
                 </div>
 
               <li class="flex items-center gap-4 pl-4 pr-5 text-sm text-left h-20   ">
-                  <div>
+                  <!-- <div>
                     <img class="w-3 h-3" src="./assets/img/star.png" alt="">
-                  </div>
+                  </div> -->
                   <div>
-                  <p class="font-semibold tracking-wide ">Asistencia las 24 horas:</p>
-                  <p>Tendras asistencia ambulatoria, auxilio mecanico, entre otros.</p>
+                  <p class="font-semibold tracking-wide ">⭐ Asistencia las 24 horas:</p>
+                  <p class="text-xs ml-6 ">Tendras asistencia ambulatoria, auxilio mecanico, entre otros.</p>
                   </div>  
 
               <li class="flex items-center gap-4 pl-4 pr-5 text-sm text-left h-20 bg-[#d4f4fd]  ">
-                  <div>
+                  <!-- <div>
                     <img class="w-3 h-3" src="./assets/img/star.png" alt="">
-                  </div>
+                  </div> -->
                   <div>
-                  <p class="font-semibold tracking-wide ">Chofer de reemplazo:</p>
-                  <p class="text-xs ">Chofer de reemplazo cuando te sientas indispuesto de conducir.</p>
+                  <p class="font-semibold tracking-wide ">⭐ Chofer de reemplazo:</p>
+                  <p class="text-xs ml-6">Chofer de reemplazo cuando te sientas indispuesto de conducir.</p>
                   </div>      
 
               <li class="flex items-center gap-4 pl-4 pr-5 text-sm text-left h-20 ">
-                  <div>
+                  <!-- <div>
                     <img class="w-3 h-3" src="./assets/img/star.png" alt="">
-                  </div>
+                  </div> -->
                   <div>
-                  <p class="font-semibold tracking-wide ">Revision tecnica:</p>
-                  <p class="text-xs ">Podras realizar una revision de tu vehiculo para tu seguridad y la de tu familia.</p>
+                  <p class="font-semibold tracking-wide ">⭐ Revision tecnica:</p>
+                  <p class="text-xs ml-6">Podras realizar una revision de tu vehiculo para tu seguridad y la de tu familia.</p>
                   </div>
 
               <li class="flex items-center gap-4 pl-4 pr-5 text-sm text-left h-20 bg-[#d4f4fd] ">
-                  <div>
+                  <!-- <div>
                     <img class="w-3 h-3" src="./assets/img/star.png" alt="">
-                  </div>
+                  </div> -->
                   <div>
-                  <p class="font-semibold  tracking-wide  ">Mantenimiento mensual:</p>
-                  <p class="text-xs ">¡Auto seguro, familia segura!. Manten tu vehiculo en optimas condiciones.</p>
+                  <p class="font-semibold  tracking-wide  ">⭐ Mantenimiento mensual:</p>
+                  <p class="text-xs ml-6">¡Auto seguro, familia segura!. Manten tu vehiculo en optimas condiciones.</p>
                   </div>
 
-                <li class="flex items-center gap-4 pl-4 pr-5 text-sm text-left h-20  mb-4 ">
-                  <div>
+                <li class="flex items-center gap-4 pl-4 pr-5 text-sm text-left h-20  mb-4 md:mb-2 ">
+                  <!-- <div>
                     <img class="w-3 h-3" src="./assets/img/star.png" alt="">
-                  </div>
+                  </div> -->
                   <div>
-                  <p class="font-semibold tracking-wide ">Gruas:</p>
-                  <p class="text-xs ">Asistencia de grua frente a percances inoportunos.</p>
+                  <p class="font-semibold tracking-wide ">⭐ Gruas:</p>
+                  <p class="text-xs ml-6">Asistencia de grua frente a percances inoportunos.</p>
                   </div>
                  
 
@@ -206,7 +208,7 @@
         </div> 
         <!-- Container 3  -->
 
-        <div class="border border-[#0083B4] rounded-2xl border-2 flex flex-col mt-12  ">
+        <div class="border border-[#0083B4] rounded-2xl border-2 flex flex-col mt-12 md:mt-0 md:w-[33%] md:mt-6">
           <h2 class="mt-4 pb-4 text-center text-2xl font-bold tracking-widest border-b-2  w-[90%] mx-auto color-#1F3142 ">Plan Platinium</h2>
 
             <h2 class="text-3xl font-bold my-2 text-center color-#1F3142 ">US$ 39.99</h2>
@@ -216,197 +218,238 @@
 
             <ul >
               <li class="flex items-center gap-4 pl-4 pr-5 text-sm text-left mt-4  bg-[#d4f4fd] h-20   ">
-                <div>
+                <!-- <div>
                   <img class="w-3 h-3" src="./assets/img/star.png" alt="">
-                </div>
+                </div> -->
                 <div>
-                <p class="font-semibold tracking-wide ">Seguro contra robos del 60%:</p>
-                <p>Si tu miedo es el robo de tu vehiculo, este plan te cubrira ante esta situacion para tu tranquilidad.</p>
+                <p class="font-semibold tracking-wide ">⭐ Seguro contra robos del 60%:</p>
+                <p class="text-xs ml-6">Si tu miedo es el robo de tu vehiculo, este plan te cubrira ante esta situacion para tu tranquilidad.</p>
                 </div>
 
               <li class="flex items-center gap-4 pl-4 pr-5 text-sm text-left h-20   ">
-                  <div>
+                  <!-- <div>
                     <img class="w-3 h-3" src="./assets/img/star.png" alt="">
-                  </div>
+                  </div> -->
                   <div>
-                  <p class="font-semibold tracking-wide ">Asistencia las 24 horas:</p>
-                  <p>Tendras asistencia ambulatoria, auxilio mecanico, entre otros.</p>
+                  <p class="font-semibold tracking-wide ">⭐ Asistencia las 24 horas:</p>
+                  <p class="text-xs ml-6">Tendras asistencia ambulatoria, auxilio mecanico, entre otros.</p>
                   </div>  
 
               <li class="flex items-center gap-4 pl-4 pr-5 text-sm text-left h-20 bg-[#d4f4fd]  ">
-                  <div>
+                  <!-- <div>
                     <img class="w-3 h-3" src="./assets/img/star.png" alt="">
-                  </div>
+                  </div> -->
                   <div>
-                  <p class="font-semibold tracking-wide ">Chofer de reemplazo:</p>
-                  <p>Chofer de reemplazo cuando te sientas indispuesto de conducir.</p>
+                  <p class="font-semibold tracking-wide ">⭐ Chofer de reemplazo:</p>
+                  <p class="text-xs ml-6">Chofer de reemplazo cuando te sientas indispuesto de conducir.</p>
                   </div>      
 
               <li class="flex items-center gap-4 pl-4 pr-5 text-sm text-left h-20 ">
-                  <div>
+                  <!-- <div>
                     <img class="w-3 h-3" src="./assets/img/star.png" alt="">
-                  </div>
+                  </div> -->
                   <div>
-                  <p class="font-semibold tracking-wide ">Revision tecnica:</p>
-                  <p>Podras realizar una revision de tu vehiculo para tu seguridad y la de tu familia.</p>
+                  <p class="font-semibold tracking-wide ">⭐ Revision tecnica:</p>
+                  <p class="text-xs ml-6">Podras realizar una revision de tu vehiculo para tu seguridad y la de tu familia.</p>
                   </div>
 
               <li class="flex items-center gap-4 pl-4 pr-5 text-sm text-left h-20 bg-[#d4f4fd] ">
-                  <div>
+                  <!-- <div>
                     <img class="w-3 h-3" src="./assets/img/star.png" alt="">
-                  </div>
+                  </div> -->
                   <div>
-                  <p class="font-semibold  tracking-wide  ">Mantenimiento mensual:</p>
-                  <p>¡Auto seguro, familia segura!. Manten tu vehiculo en optimas condiciones.</p>
+                  <p class="font-semibold  tracking-wide  ">⭐ Mantenimiento mensual:</p>
+                  <p class="text-xs ml-6">¡Auto seguro, familia segura!. Manten tu vehiculo en optimas condiciones.</p>
                   </div>
 
                   <li class="flex items-center gap-4 pl-4 pr-5 text-sm text-left h-20 ">
-                    <div>
+                    <!-- <div>
                       <img class="w-3 h-3" src="./assets/img/star.png" alt="">
-                    </div>
+                    </div> -->
                     <div>
-                    <p class="font-semibold tracking-wide ">Razones externas:</p>
-                    <p>Tu vehiculo se encuentra cubierto frente a daño colateral por manifestaciones y disturbios.</p>
+                    <p class="font-semibold tracking-wide ">⭐ Razones externas:</p>
+                    <p class="text-xs ml-6">Tu vehiculo se encuentra cubierto frente a daño colateral por manifestaciones y disturbios.</p>
                     </div>
   
-                <li class="flex justify-center items-center gap-4 pl-4 pr-5 text-sm text-left h-20 bg-[#d4f4fd] ">
-                    <div>
+                <li class="flex items-center gap-4 pl-4 pr-5 text-sm text-left h-20 bg-[#d4f4fd] ">
+                    <!-- <div>
                       <img class="w-3 h-3" src="./assets/img/star.png" alt="">
-                    </div>
+                    </div> -->
                     <div>
-                      <p class="font-semibold tracking-wide ">Gruas:</p>
-                      <p>Asistencia de grua frente a percances inoportunos.</p>
+                      <p class="font-semibold tracking-wide ">⭐ Gruas:</p>
+                      <p class="text-xs ml-6">Asistencia de grua frente a percances inoportunos.</p>
                     </div>
 
-                    <li class="flex justify-center items-center gap-4 pl-4 pr-5 text-sm text-left h-20  ">
-                      <div>
+                    <li class="flex  items-center gap-4 pl-4 pr-5 text-sm text-left h-20  ">
+                      <!-- <div>
                         <img class="w-6 " src="./assets/img/star.png" alt="">
-                      </div>
+                      </div> -->
                       <div>
-                        <p class="font-semibold tracking-wide ">GPS antirrobo:</p>
-                        <p>Rastreo las 24 horas en vivo para detener un posible robo en accion.</p>
+                        <p class="font-semibold tracking-wide ">⭐ GPS antirrobo:</p>
+                        <p class="text-xs ml-6">Rastreo las 24 horas en vivo para detener un posible robo en accion.</p>
                       </div>
 
-                <li class="flex justify-center items-center gap-4 pl-4 pr-5 text-sm text-left h-20  mb-4 bg-[#d4f4fd]   ">
-                  <div>
+                <li class="flex  items-center gap-4 pl-4 pr-5 text-sm text-left h-20  mb-4 bg-[#d4f4fd]   ">
+                  <!-- <div>
                     <img class="w-4 " src="./assets/img/star.png" alt="">
-                  </div>
+                  </div> -->
                   <div>
-                  <p class="font-semibold tracking-wide ">Hackeo de software S.O.S.:</p>
-                  <p>Hackea el sistema del auto en situaciones de riesgo.</p>
+                  <p class="font-semibold tracking-wide ">⭐ Hackeo de software S.O.S.:</p>
+                  <p class="text-xs ml-6">Hackea el sistema del auto en situaciones de riesgo.</p>
                   </div>
 
             </ul>
-             
         </div>
+
+      </div> <!--Fin de conatiner grid-->
 
     </section>
 
-    <!-- <section>
-      <div>
-        <h2>Del 24 al 31 de Octubre</h2>
-        <img src="" alt=""> Imagen carro 1 
-        <h3>Plan gold</h3>
-      </div>  
-
-      <div> Carrusel -->
-        <!-- <h3>¡Promociones a tu alcance!</h3>
-        <h2>Seguro vehicular al 100%</h2>
-        <h3>4 cuotas al año</h3>
-        <h3>Desde:</h3>
-        <h2>US$ 22.99</h2>
-        <p><span>logo estrella</span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero, accusamus.</p>
-        <p><span>logo estrella</span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero, accusamus.</p>
-        <button>Cotizar</button>
-      
+    <section class="mt-12 w-[90%] m-auto  ">
+      <h2 class="text-xl md:text-2xl font-bold text-center">Razones para proteger tu vehiculo</h2>
+      <div class="flex flex-col justify-center items-center">
+        <img class="md:w-36 w-24 mt-8" src="./assets/img/bolsa-dinero.png">
+  
+        <div>
+  
+  
+          <div class="flex flex-row justify-center items-center text-center">
+            <button
+              class="rounded-full bg-white md:w-12 md:h-12 w-16 h-12 flex justify-center items-center click md:me-4 me-1"><img
+                class="w-4" src="./assets/img/arrow.svg"></button>
+  
+            <h3 class="mt-8 w-11/12 md:w-7/12 text-center md:text-xl text-sm font-semibold text-sub">Protección financiera
+            </h3>
+  
+            <button
+              class="rounded-full bg-white md:w-12 md:h-12 w-16 h-12 flex justify-center items-center click md:ms-4 ms-1 rotate-180"><img
+                class="w-4" src="./assets/img/arrow.svg"></button>
+          </div>
+  
+        </div>
+  
+        <div class="flex flex-row justify-center items-center gap-4 mt-8">
+          <img src="./assets/img/star.png">
+          <img src="./assets/img/star.png">
+          <img src="./assets/img/star.png">
+          <img src="./assets/img/star.png">
+          <img src="./assets/img/star.png">
+        </div>
+        <h3 class="mt-8 mb-8 text-center">Te protegemos financieramente en
+          caso
+          de
+          accidentes automovilístico.</h3>
       </div>
-
-      <div> -->
-        <!-- <img src="" alt=""> Fecha izquierda  -->
-          <!-- <img src="" alt=""> circulo  -->
-            <!-- <img src="" alt=""> circulo  -->
-              <!-- <img src="" alt=""> circulo  -->
-        <!-- <img src="" alt=""> Flecha derecha 
-      </div>
-
-      
-
-
-
-
-
-      <section>
-        <h2>Conoce nuestros planes de seguro vehicular</h2>
-        <div>
-          <h2>Plan basic</h2>
-            <p>US$ 19.99</p>
-            <button>Cotizar</button>
-            <ul>
-              <li><p>Asistencia las 24 horas:</p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit corrupti provident atque</p></li>
-              <li><p>Asistencia las 24 horas:</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit corrupti provident atque</p></li>
-                <li><p>Asistencia las 24 horas:</p>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit corrupti provident atque</p></li>
-            </ul>
+    </section>
+  
+    <section class="flex flex-col items-center justify-center">
+      <h2 class="text-xl md:text-2xl font-bold">Preguntas frecuentes</h2>
+  
+      <div class="relative w-11/12 md:w-7/12 
+       overflow-hidden mt-12 bg-white border rounded-t-lg"> <!--barra de despliegue1-->
+        <input type="checkbox" class="peer absolute top-0 inset-x-0 w-full h-12 opacity-0 z-10 cursor-pointer">
+  
+        <div class="bg-white border-1px w-full pl-5 flex items-center md:justify-center h-16 md:h-14">
+          <h2 class="text-xs md:text-lg font-semibold text-left md:text-center">¿El Sistema de software instalado
+            puede<br>
+            apagar el
+            vehículo en caso
+            de robo?
+          </h2>
         </div>
-        
-        <div>
-          <h2>Plan basic</h2>
-            <p>US$ 19.99</p>
-            <button>Cotizar</button>
-            <ul>
-              <li><p>Asistencia las 24 horas:</p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit corrupti provident atque</p></li>
-              <li><p>Asistencia las 24 horas:</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit corrupti provident atque</p></li>
-                <li><p>Asistencia las 24 horas:</p>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit corrupti provident atque</p></li>
-                  <li><p>Asistencia las 24 horas:</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit corrupti provident atque</p></li>
-                    <li><p>Asistencia las 24 horas:</p>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit corrupti provident atque</p></li>
-                      <li><p>Asistencia las 24 horas:</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit corrupti provident atque</p></li>
-            </ul>
+  
+        <div class="absolute top-3 right-3 transition-transform duration-500 rotate-0 peer-checked:rotate-180">
+          <!--icono de mas y menos como despliegue-->
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="12" cy="12" r="11" stroke="#0A1825" stroke-width="2" />
+            <path d="M6 12H17.6001" stroke="#0A1825" stroke-width="2" />
+            <path d="M11.7998 6.2002V17.8003" stroke="#0A1825" stroke-width="2" />
+          </svg>
         </div>
-        <div>
-          <h2>Plan basic</h2>
-            <p>US$ 19.99</p>
-            <button>Cotizar</button>
-            <ul>
-              <li><p>Asistencia las 24 horas:</p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit corrupti provident atque</p></li>
-              <li><p>Asistencia las 24 horas:</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit corrupti provident atque</p></li>
-                <li><p>Asistencia las 24 horas:</p>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit corrupti provident atque</p></li>
-                  <li><p>Asistencia las 24 horas:</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit corrupti provident atque</p></li>
-                    <li><p>Asistencia las 24 horas:</p>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit corrupti provident atque</p></li>
-                      <li><p>Asistencia las 24 horas:</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit corrupti provident atque</p></li>
-                        <li><p>Asistencia las 24 horas:</p>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit corrupti provident atque</p></li>
-                          <li><p>Asistencia las 24 horas:</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit corrupti provident atque</p></li>
-                            <li><p>Asistencia las 24 horas:</p>
-                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit corrupti provident atque</p></li>
-                              <li><p>Asistencia las 24 horas:</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit corrupti provident atque</p></li>
-            </ul>
+  
+        <div class="bg-white overflow-hidden transition-all duration-500 max-h-0 peer-checked:max-h-40">
+          <div class="p-3">
+            <p class="text-xs md:text-lg">
+              Sí, el sistema de robo puede frustrar un robo en acción ya que la tecnología instalada nos permite apagar el
+              motor en vivo lass 24hr y, además podremos ver la ubicación del vehículo.
+            </p>
+          </div>
         </div>
-      </section>
-
-    </section>   -->
-
-
-
-
-
-
+  
+      </div> <!--barra de despliegue1-->
+  
+  
+      <div class="relative w-11/12 md:w-7/12 
+       overflow-hidden bg-white border rounded-t-lg"> <!--barra de despliegue2-->
+        <input type="checkbox" class="peer absolute top-0 inset-x-0 w-full h-12 opacity-0 z-10 cursor-pointer">
+  
+        <div class="bg-white border-1px w-full pl-5 flex items-center md:justify-center h-16 md:h-14">
+          <h2 class="text-xs md:text-lg font-semibold text-left md:text-center">¿Qué pasa si decido salir del país?
+          </h2>
+        </div>
+  
+        <div class="absolute top-3 right-3 transition-transform duration-500 rotate-0 peer-checked:rotate-180">
+          <!--icono de mas y menos como despliegue-->
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="12" cy="12" r="11" stroke="#0A1825" stroke-width="2" />
+            <path d="M6 12H17.6001" stroke="#0A1825" stroke-width="2" />
+            <path d="M11.7998 6.2002V17.8003" stroke="#0A1825" stroke-width="2" />
+          </svg>
+        </div>
+  
+        <div class="bg-white overflow-hidden transition-all duration-500 max-h-0 peer-checked:max-h-40">
+          <div class="p-3">
+            <p class="text-xs md:text-lg">
+              Sí, el sistema de robo puede frustrar un robo en acción ya que la tecnología instalada nos permite apagar el
+              motor en vivo lass 24hr y, además podremos ver la ubicación del vehículo.
+            </p>
+          </div>
+        </div>
+  
+      </div> <!--barra de despliegue2-->
+  
+  
+      <div class="relative w-11/12 md:w-7/12 
+       overflow-hidden mb-12 bg-white border rounded-t-lg"> <!--barra de despliegue2-->
+        <input type="checkbox" class="peer absolute top-0 inset-x-0 w-full h-12 opacity-0 z-10 cursor-pointer">
+  
+        <div class="bg-white border-1px w-full pl-5 flex items-center md:justify-center h-16 md:h-14">
+          <h2 class="text-xs md:text-lg font-semibold text-left md:text-center">¿El Sistema de software instalado
+            puede<br>
+            apagar el
+            vehículo en caso
+            de robo?
+          </h2>
+        </div>
+  
+        <div class="absolute top-3 right-3 transition-transform duration-500 rotate-0 peer-checked:rotate-180">
+          <!--icono de mas y menos como despliegue-->
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="12" cy="12" r="11" stroke="#0A1825" stroke-width="2" />
+            <path d="M6 12H17.6001" stroke="#0A1825" stroke-width="2" />
+            <path d="M11.7998 6.2002V17.8003" stroke="#0A1825" stroke-width="2" />
+          </svg>
+        </div>
+  
+        <div class="bg-white overflow-hidden transition-all duration-500 max-h-0 peer-checked:max-h-40">
+          <div class="p-3">
+            <p class="text-xs md:text-lg">
+              Sí, el sistema de robo puede frustrar un robo en acción ya que la tecnología instalada nos permite apagar el
+              motor en vivo lass 24hr y, además podremos ver la ubicación del vehículo.
+            </p>
+          </div>
+        </div>
+  
+      </div> <!--barra de despliegue2-->
+  
+    </section>
   </main>
+
+    <footer class="flex flex-row justify-center items-center pt-4 pb-4 bg-gradient-to-r from-stone-950 via-blue-950  to-blue-900">
+      <img class="mr-6 h-6" src="./assets/logo/isotipo.svg">
+      <p class="text-white text-xs md:text-lg">Todos los derechos reservados 2023</p>
+    </footer>
+  
  
 
 
