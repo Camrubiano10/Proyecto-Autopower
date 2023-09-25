@@ -5,7 +5,8 @@
   --gold: #FFF8E1;
   --whiteblue: #F1F2F4;
   --skyblue: #1EBAF3;
-  --darkblue1: #0A1825;
+  --skyblueselect: #41CAFD;
+  --darkblue1: #0e2133;
   --gradient1: linear-gradient(70deg, #0083B4, #8FC2D3);
   --gradient2: linear-gradient(70deg, #001947, #03416E);
 }
@@ -20,15 +21,11 @@ body {
   background-color: var(--whiteblue);
 }
 
-
-footer {
-  background-color: var(--darkblue1);
-}
-
 .text-sub {
   color: var(--skyblue);
 }
 
+h1,
 h2,
 h3,
 h4,
