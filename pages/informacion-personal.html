@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informacion personal</title>
+    <link rel="icon" href="../assets/logo/favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css" />
+</head>
+
+<body>
+
+    <nav
+        class="fixed top-0 left-0 right-0 flex justify-between items-center px-8 md:px-40 py-2 md:py-10 bg-gradient-to-r from-stone-950 via-blue-950  to-blue-900  h-12 ">
+
+        <div class="w-28 md:w-48 ">
+            <img class="  " src="../assets/logo/Logo-blanco.svg" alt="" />
+
+        </div>
+
+        <div class="text-white ">
+
+            <img class="Visibility md:hidden lg:hidden" src="../assets/img/icon-hamburger.svg" alt="" />
+            <ul class="md:flex md:flex-row hidden md:visibility text-white gap-6 font-semibold hover:cursor-pointer ">
+                <!--corregir Hidden para md-->
+                <li>BENEFICIOS</li>
+                <li>COTIZA</li>
+                <li>SOBRE NOSOTROS</li>
+                <li>CONTACTO</li>
+            </ul>
+
+            <img class="visibility md:hidden " src="./assets/img/icon-hamburger.svg" alt="" />
+        </div>
+    </nav>
+
+
+    <section>
+        <div id="progress-bar" class="max-w-xl mx-auto mt-20 p-5"> <!--Barra de progreso-->
+            <!-- Pasos -->
+            <div class="mx-12 md:mx-24 flex">
+                <!-- Paso 1 -->
+                <div
+                    class="flex-shrink w-12 h-12 flex items-center justify-center font-semibold text-xl border-4 border-blue-900 rounded-full">
+                    1
+                </div>
+                <div class="flex-1 border-t-4 border-blue-900 mt-5 md:block"></div>
+
+                <!-- Paso 2 -->
+                <div
+                    class="w-12 h-12 flex items-center justify-center font-semibold text-xl border-4 border-blue-900 rounded-full">
+                    2
+                </div>
+                <div class="flex-1 border-t-4 border-blue-900 mt-5 md:block"></div>
+
+                <!-- Paso 3 -->
+                <div
+                    class="flex-shrin w-12 h-12 flex items-center justify-center font-semibold text-xl border-4 border-blue-900 rounded-full">
+                    3
+                </div>
+            </div>
+        </div> <!--Barra de progreso-->
+    </section>
+
+
+    <section>
+        <div class="h-full flex items-center justify-center">
+            <div class="w-11/12 md:w-3/12 bg-white my-10 p-6 rounded-3xl shadow-md">
+                <h2 class="text-2xl font-bold text-center mt-2 mb-4">Informacion personal</h2>
+                <form>
+                    <div class="mb-2">
+                        <input type="text" name="nombre" placeholder="Nombre"
+                            class="border-b-2  w-full px-4 py-2 focus:outline-none focus:border-blue-500">
+                    </div>
+                    <div class="mb-2">
+                        <input type="text" name="apellidos" placeholder="Apellidos"
+                            class="border-b-2 w-full px-4 py-2  focus:outline-none focus:border-blue-500">
+                    </div>
+                    <div class="mb-2">
+                        <select type="text" name="tipodocumento" placeholder="Tipo de documento"
+                            class="border-b-2 w-full px-3 py-2  focus:outline-none focus:border-blue-500 bg-white text-gray-400">
+                            <option value="">Tipo de documento</option>
+                            <option value="ced">Cedula</option>
+                            <option value="tar">Tarjeta</option>
+                            <option value="dni">DNI</option>
+                        </select>
+                    </div>
+                    <div class="mb-2 bg-white">
+                        <input type="text" name="numerodoc" placeholder="Numero de documento"
+                            class="border-b-2 w-full px-4 py-2 bg-white focus:outline-none focus:border-blue-500">
+                    </div>
+                    <div class="mb-2 gb-white">
+                        <select type="text" name="departamento" placeholder="Departamento"
+                            class="form-select border-b-2 w-full px-3 py-2  focus:outline-none focus:border-blue-500 bg-white text-gray-400">
+                            <option value="">País</option>
+                            <option value="per">Perú</option>
+                            <option value="col">Colombia</option>
+                            <option value="arg">Argentina</option>
+                            <option value="chi">Chile</option>
+                            <option value="uru">Uruguay</option>
+                            <option value="ecu">Ecuador</option>
+                            <option value="bol">Bolivia</option>
+                        </select>
+                    </div>
+                    <div class="mb-2">
+                        <input type="text" name="direccion" placeholder="Direccion de residencia"
+                            class="border-b-2 w-full px-4 py-2  focus:outline-none focus:border-blue-500">
+                    </div>
+                    <div class="mb-2">
+                        <input type="tel" name="telefono" placeholder="Numero de telefono"
+                            class="border-b-2 w-full px-4 py-2  focus:outline-none focus:border-blue-500">
+                    </div>
+                    <div class="mb-2">
+                        <input type="mail" name="email" placeholder="Correo electronico"
+                            class="border-b-2 w-full px-4 py-2  focus:outline-none focus:border-blue-500">
+                    </div>
+                    <div class="mb-8">
+                        <select type="text" name="vehiculo" placeholder="Tipo de Vehiculo"
+                            class="Block border-b-2 w-full px-3 py-2  focus:outline-none focus:border-blue-500 bg-white text-gray-400">
+                            <option class="text-gray-300" value="">Tipo de Vehículo</option>
+                            <option value="1">Camioneta</option>
+                            <option value="2">Carro</option>
+                            <option value="3">Moto</option>
+                            <option value="4">Otro</option>
+                        </select>
+                    </div>
+                    <div class="mb-4 text-center">
+                        <a href="./confirm-page.html">
+                            <button type="submit"
+                                class="bg-sky-400 text-white font-semibold w-11/12 py-2 mb-4 px-4 rounded-lg hover:bg-sky-400 hover:shadow-lg hover:shadow-cyan-200/50 md:w-7/12">
+                                Siguiente</button></a> <!--boton primary-->
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer
+        class="flex flex-row justify-center items-center pt-4 pb-4 bg-gradient-to-r from-stone-950 via-blue-950 to-blue-900 font-semibold">
+        <img class="mr-6 h-8" src="../assets/logo/isotipo.svg">
+        <p class="text-white text-xs md:text-lg">Todos los derechos reservados 2023</p>
+    </footer>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+</body>
+
+</html>
